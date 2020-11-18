@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/rela"
+    android:orientation="vertical"
+    android:background="@drawable/grad2">
+    <ImageView
+        android:padding="2dp"
+        android:id="@+id/countryFlagIv"
+
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/vin"/>
+    <ImageView
+        android:padding="2dp"
+        android:id="@+id/countryFlagIv2"
+
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:src="@drawable/vin"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/countryNameTv"
+        android:text="VinMart"
+        android:textSize="15dp"
+        android:textColor="#242424"
+
+
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:padding="2dp"
+            android:id="@+id/countryFlagIv1"
+
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:src="@drawable/star1"/>
+
+        <TextView
+            android:id="@+id/areaTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+
+            android:textSize="12dp"
+            android:text="425 nhận xét"
+            android:textColor="#787878" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/populationTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:text="Chất Lượng"
+            android:textColor="#242424"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/areaTv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+
+
+            android:text="(-20%)"
+            android:textColor="#787878" />
+
+    </LinearLayout>
+
+
+    <ImageView
+
+        android:id="@+id/countryFlagIv3"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:src="@drawable/rehonhoantien"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/areaTv3"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="O%"
+            android:textColor="#2DE3D4" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/areaTv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text=" Trả góp"
+            android:textColor="#787878" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/areaTv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:paddingTop="10dp"
+
+        android:text="Nhiều màu"
+        android:textColor="#787878" />
+</LinearLayout>

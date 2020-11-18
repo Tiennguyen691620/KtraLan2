@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad2"
+   >
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KIỂM TRA LẦN 2"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="35dp"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HỒ MINH THẮNG"
+        android:layout_gravity="center"
+        android:textSize="22dp"
+        android:layout_marginTop="35dp"
+        android:textColor="#F8EFEF"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/grad3"
+        android:text="CLICK ĐỂ XEM PHẦN  BÀI LÀM"
+        android:textColor="#121111" />
+</LinearLayout>

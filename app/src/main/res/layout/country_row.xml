@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/rela"
+    android:orientation="vertical"
+    android:background="@color/circleBorder">
+    <ImageView
+        android:padding="2dp"
+        android:id="@+id/countryFlagIv"
+
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/bo"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/countryNameTv"
+        android:text="Phở Bò"
+        android:textSize="15dp"
+        android:textColor="#242424"
+
+
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/populationTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:text="35.000đ"
+        android:textColor="#DF621F"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/populationTv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:text="28.000đ"
+            android:textColor="#242424"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/areaTv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+
+
+            android:text="(-20%)"
+            android:textColor="#787878" />
+
+    </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:id="@+id/areaTv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:paddingTop="15dp"
+
+        android:text="Việt Nam"
+        android:textColor="#787878" />
+</LinearLayout>

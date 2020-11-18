@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/Home"
+        android:icon="@drawable/menu"
+        android:title="Menu"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="Bạn đang tìm kiếm gì?"
+
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView">
+    </item>
+    <item android:id="@+id/shopping"
+        android:icon="@drawable/shop"
+        android:title="Search"
+
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/action_settings"
+        android:title="Settings" />
+    <item android:id="@+id/delete"
+        android:title="Delete all">
+    </item>
+    <item android:id="@+id/insert"
+        android:title="Insert list">
+    </item>
+    <item android:id="@+id/updete"
+        android:title="Updete">
+    </item>
+</menu>

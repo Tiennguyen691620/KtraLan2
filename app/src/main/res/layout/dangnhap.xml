@@ -1,0 +1,90 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/grad2"
+
+    android:id="@+id/login1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="30dp"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:padding="3dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoặc đăng nhập bằng tài khoản của bạn"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/grey"
+        android:textSize="20sp"
+        android:gravity="center">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittextuser"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#2B6788"
+        android:textSize="20sp"
+        android:hint="Nhập địa chỉ eamil của bạn">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittextpass"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="Mật khẩu">
+    </EditText>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG NHẬP"
+            android:textColor="#E6C12A2A"
+            android:layout_marginRight="50dp"
+            android:id="@+id/btndangnhap"
+            android:background="@drawable/grad3"
+            android:textSize="20sp">
+
+        </Button>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG KÝ"
+            android:id="@+id/btndangky"
+            android:textColor="#E6C12A2A"
+            android:background="@drawable/grad3"
+            android:textSize="20sp">
+        </Button>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/grey"
+        android:text="Chúng tôi sẽ không sử dụng thông tin của bạn với bất kì mục đích nào khác."
+        android:gravity="center"
+        >
+    </TextView>
+
+
+</LinearLayout>
